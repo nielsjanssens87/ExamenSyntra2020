@@ -33,11 +33,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Niels\\source\\repos\\ContactPersonen3\\ContactPersonen3\\ContactPersonen3.csproj",
+      "projectUniqueName": "C:\\Users\\Niels\\Source\\Repos\\ExamenSyntra2020\\ContactPersonen3\\ContactPersonen3\\ContactPersonen3.csproj",
       "projectName": "ContactPersonen3",
-      "projectPath": "C:\\Users\\Niels\\source\\repos\\ContactPersonen3\\ContactPersonen3\\ContactPersonen3.csproj",
+      "projectPath": "C:\\Users\\Niels\\Source\\Repos\\ExamenSyntra2020\\ContactPersonen3\\ContactPersonen3\\ContactPersonen3.csproj",
       "packagesPath": "C:\\Users\\Niels\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Niels\\source\\repos\\ContactPersonen3\\ContactPersonen3\\obj\\",
+      "outputPath": "C:\\Users\\Niels\\Source\\Repos\\ExamenSyntra2020\\ContactPersonen3\\ContactPersonen3\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -56,8 +56,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Niels\\source\\repos\\ContactPersonen3\\ContactLibrary\\ContactLibrary.csproj": {
-              "projectPath": "C:\\Users\\Niels\\source\\repos\\ContactPersonen3\\ContactLibrary\\ContactLibrary.csproj"
+            "C:\\Users\\Niels\\Source\\Repos\\ExamenSyntra2020\\ContactPersonen3\\ContactLibrary\\ContactLibrary.csproj": {
+              "projectPath": "C:\\Users\\Niels\\Source\\Repos\\ExamenSyntra2020\\ContactPersonen3\\ContactLibrary\\ContactLibrary.csproj"
             }
           }
         }

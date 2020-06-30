@@ -9,3 +9,14 @@ C:\Users\Niels\source\repos\ContactPersonen3\ContactLibrary\obj\Debug\netcoreapp
 C:\Users\Niels\source\repos\ContactPersonen3\ContactLibrary\obj\Debug\netcoreapp3.1\ContactLibrary.csproj.CopyComplete
 C:\Users\Niels\source\repos\ContactPersonen3\ContactLibrary\obj\Debug\netcoreapp3.1\ContactLibrary.dll
 C:\Users\Niels\source\repos\ContactPersonen3\ContactLibrary\obj\Debug\netcoreapp3.1\ContactLibrary.pdb
+C:\Users\Niels\Source\Repos\ExamenSyntra2020\ContactPersonen3\ContactLibrary\bin\Debug\netcoreapp3.1\ContactLibrary.deps.json
+C:\Users\Niels\Source\Repos\ExamenSyntra2020\ContactPersonen3\ContactLibrary\bin\Debug\netcoreapp3.1\ContactLibrary.dll
+C:\Users\Niels\Source\Repos\ExamenSyntra2020\ContactPersonen3\ContactLibrary\bin\Debug\netcoreapp3.1\ContactLibrary.pdb
+C:\Users\Niels\Source\Repos\ExamenSyntra2020\ContactPersonen3\ContactLibrary\bin\Debug\netcoreapp3.1\PresentationCore.dll
+C:\Users\Niels\Source\Repos\ExamenSyntra2020\ContactPersonen3\ContactLibrary\obj\Debug\netcoreapp3.1\ContactLibrary.csprojAssemblyReference.cache
+C:\Users\Niels\Source\Repos\ExamenSyntra2020\ContactPersonen3\ContactLibrary\obj\Debug\netcoreapp3.1\ContactLibrary.AssemblyInfoInputs.cache
+C:\Users\Niels\Source\Repos\ExamenSyntra2020\ContactPersonen3\ContactLibrary\obj\Debug\netcoreapp3.1\ContactLibrary.AssemblyInfo.cs
+C:\Users\Niels\Source\Repos\ExamenSyntra2020\ContactPersonen3\ContactLibrary\obj\Debug\netcoreapp3.1\ContactLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Niels\Source\Repos\ExamenSyntra2020\ContactPersonen3\ContactLibrary\obj\Debug\netcoreapp3.1\ContactLibrary.csproj.CopyComplete
+C:\Users\Niels\Source\Repos\ExamenSyntra2020\ContactPersonen3\ContactLibrary\obj\Debug\netcoreapp3.1\ContactLibrary.dll
+C:\Users\Niels\Source\Repos\ExamenSyntra2020\ContactPersonen3\ContactLibrary\obj\Debug\netcoreapp3.1\ContactLibrary.pdb

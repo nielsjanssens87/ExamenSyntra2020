@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ContactPersonen3.View.DialogWindows"
         mc:Ignorable="d"
-        Title="Add Contact: Person" Height="480" Width="400" MinHeight="500" MinWidth="400">
+        Title="Add Contact: Person" SizeToContent="Height" Width="400" MinHeight="500" MinWidth="400">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="10"/>

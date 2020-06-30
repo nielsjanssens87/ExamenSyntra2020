@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Niels\\source\\repos\\ContactPersonen3\\ContactLibrary\\ContactLibrary.csproj",
+      "projectUniqueName": "C:\\Users\\Niels\\Source\\Repos\\ExamenSyntra2020\\ContactPersonen3\\ContactLibrary\\ContactLibrary.csproj",
       "projectName": "ContactLibrary",
-      "projectPath": "C:\\Users\\Niels\\source\\repos\\ContactPersonen3\\ContactLibrary\\ContactLibrary.csproj",
+      "projectPath": "C:\\Users\\Niels\\Source\\Repos\\ExamenSyntra2020\\ContactPersonen3\\ContactLibrary\\ContactLibrary.csproj",
       "packagesPath": "C:\\Users\\Niels\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Niels\\source\\repos\\ContactPersonen3\\ContactLibrary\\obj\\",
+      "outputPath": "C:\\Users\\Niels\\Source\\Repos\\ExamenSyntra2020\\ContactPersonen3\\ContactLibrary\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
