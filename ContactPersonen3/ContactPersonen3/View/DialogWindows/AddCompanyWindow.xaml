@@ -1,0 +1,72 @@
+﻿<Window x:Class="ContactPersonen3.View.DialogWindows.AddCompanyWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ContactPersonen3.View.DialogWindows"
+        mc:Ignorable="d"
+        Title="Add Contact: Company" Width="800" SizeToContent="Height">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="10"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="10"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="10"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="10"/>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="1" Grid.Column="1">
+            <Label Content="Company name:"/>
+            <TextBox x:Name="txtName"/>
+
+            <Label Content="Phone number:"/>
+            <TextBox x:Name="txtPhonenumber"/>
+            <Label Content="Street:"/>
+            <TextBox x:Name="txtStreet"/>
+            <Label Content="House number:"/>
+            <TextBox x:Name="txtHouseNumber"/>
+            <Label Content="Postal code:"/>
+            <TextBox x:Name="txtPostalCode"/>
+            <Label Content="City:"/>
+            <TextBox x:Name="txtCity"/>
+            <Label Content="Remarks:"/>
+            <TextBox x:Name="txtRemarks"/>
+            
+        </StackPanel>
+        <StackPanel Grid.Row="1" Grid.Column="2">
+            <TextBox Text="Closing days:"/>
+            <CheckBox x:Name="chkMonday" Content="Monday" />
+            <CheckBox x:Name="chkTuesday" Content="Tuesday"/>
+            <CheckBox x:Name="chkWednesday" Content="Wednesday"/>
+            <CheckBox x:Name="chkThursday" Content="Thursday"/>
+            <CheckBox x:Name="chkFriday" Content="Friday"/>
+            <CheckBox x:Name="chkSaturday" Content="Saturday"/>
+            <CheckBox x:Name="chkSunday" Content="Sunday"/>
+            <TextBlock Text="Opens at:"/>
+            <StackPanel Orientation="Horizontal">
+                <TextBox x:Name="txtOpeninghour" Text="{Binding ElementName=sliOpeninghour, Path=Value, UpdateSourceTrigger=PropertyChanged}" PreviewTextInput="NumberValidationTextBox"/>
+                <TextBlock Text=":"/>
+                <TextBox x:Name="txtOpeningminutes" Text="{Binding ElementName=sliOpeningminutes, Path=Value, UpdateSourceTrigger=PropertyChanged}" PreviewTextInput="NumberValidationTextBox"/>
+                <Slider x:Name="sliOpeninghour"  Maximum="23" Visibility="Hidden"></Slider>
+                <Slider x:Name="sliOpeningminutes"  Maximum="59" Visibility="Hidden"></Slider>
+            </StackPanel>
+            <TextBlock Text="Closes at:"/>
+            <StackPanel Orientation="Horizontal">
+                <TextBox x:Name="txtClosinghour" Text="{Binding ElementName=sliClosinghour, Path=Value, UpdateSourceTrigger=PropertyChanged}" PreviewTextInput="NumberValidationTextBox"/>
+                <TextBlock Text=":"/>
+                <TextBox x:Name="txtClosingminutes" Text="{Binding ElementName=sliClosingminutes, Path=Value, UpdateSourceTrigger=PropertyChanged}" PreviewTextInput="NumberValidationTextBox"/>
+                <Slider x:Name="sliClosinghour"  Maximum="23" Visibility="Hidden"></Slider>
+                <Slider x:Name="sliClosingminutes"  Maximum="59" Visibility="Hidden"></Slider>
+            </StackPanel>
+            
+        </StackPanel>
+        <StackPanel Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="2">
+            <Button x:Name="btnAdd" Content="Add" Margin="10" Click="btnAdd_Click"/>
+            <Button x:Name="btnClose" Content="Cancel" Margin="10" Click="btnClose_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>

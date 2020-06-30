@@ -1,0 +1,27 @@
+﻿<Window x:Class="ContactPersonen3.View.DialogWindows.ShowPersonWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ContactPersonen3.View.DialogWindows"
+        mc:Ignorable="d"
+        Title="Person details" SizeToContent="Height" Width="400">
+    <Grid Margin="10" HorizontalAlignment="Center">
+        <Border BorderBrush="WhiteSmoke" BorderThickness="3" CornerRadius="10">
+            <StackPanel Margin="5">
+            <Image x:Name="imgProfilePic" HorizontalAlignment="Right" MaxWidth="150" MaxHeight="150"/>
+            <Label x:Name="Name" Content="Full name:" FontWeight="Bold" HorizontalAlignment="Center"/>
+            <Label x:Name="lblName" FontStyle="Italic" Margin="0,0,0,10" HorizontalAlignment="Center"/>
+            <Label x:Name="Phonenumber" Content="Phone number:" FontWeight="Bold" HorizontalAlignment="Center"/>
+            <Label x:Name="lblPhonenumber" FontStyle="Italic" Margin="0,0,0,10" HorizontalAlignment="Center"/>
+            <Label x:Name="Address" Content="Address:" HorizontalAlignment="Center" FontWeight="Bold" />
+            <Label x:Name="lblStreetHousenumber" FontStyle="Italic" HorizontalAlignment="Center"/>
+            <Label x:Name="lblPostalcodeCity" FontStyle="Italic" HorizontalAlignment="Center" Margin="0,0,0,10"/>
+            <Label x:Name="Remark" Content="Remark:" FontWeight="Bold" HorizontalAlignment="Center"/>
+            <TextBlock x:Name="tbRemark" TextWrapping="Wrap" FontStyle="Italic" HorizontalAlignment="Center"/>
+
+            </StackPanel>
+        </Border>
+
+    </Grid>
+</Window>
